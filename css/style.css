@@ -1,0 +1,143 @@
+/* global css */
+body{
+    background-color: #F5FCF4;
+}
+/* navigation */
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #d3531a;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* when navigation is clicked */
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* Color of 3 lines */
+.navbar-toggler.collapsed .toggler-icon {
+    background: linear-gradient(263deg, rgba(214, 229, 121, 100) 0%, rgba(38, 100, 59, 100) 100%);
+}
+
+/* home start */
+.home{
+    margin-top: 80px;
+}
+
+.jv{
+    margin: 0 200px 0 50px;
+}
+
+.desc{
+    margin-top: 20px;
+}
+
+.desc p{
+    opacity: .6;
+}
+
+.home .jv h1{
+    font-weight: 750;
+}
+
+.menu{
+    max-width: 330px;
+    margin: 0 0 0 50px;
+}
+.menu-1{
+    border: 4px solid #A2DE96;
+}
+.menu-2{
+    margin: 50px 0;
+    border: 4px solid #A2DE96;
+}
+
+.btn{
+    background-color: #26643B;
+    font-weight: 700;
+    border: none;
+    width: 45%;
+    margin: 0 0 10px 10px;
+}
+
+.btn:hover{
+    border: none;
+    background-color: #103E20;
+}
+
+.menu h2, .menu p{
+    margin: 10px 0 0 10px;
+}
+/* responsive css */
+@media screen and (max-width: 450px) {
+    .menu{
+        margin: 20px auto;
+    }
+
+    .home{
+        margin-top: 20px;
+    }
+
+    .jv{
+        margin: 0 auto;
+    }
+}
