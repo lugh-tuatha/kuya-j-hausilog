@@ -2,6 +2,12 @@
 body{
     background-color: #F5FCF4;
 }
+
+/* fonts */
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
 /* navigation */
 .navbar-toggler {
     width: 20px;
@@ -81,10 +87,11 @@ body{
 /* home start */
 .home{
     margin-top: 80px;
+    height: 100vh;
 }
 
 .jv{
-    margin: 80px 200px 0 50px;
+    margin: 80px 250px 0 150px;
 }
 
 .desc{
@@ -96,7 +103,7 @@ body{
 }
 
 .home .jv h1{
-    font-weight: 750;
+    font-weight: 700;
 }
 
 .menu{
@@ -125,7 +132,7 @@ body{
 }
 
 .menu h2{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -137,7 +144,35 @@ body{
     opacity: .5;
 }
 
+/* about us */
+#about-us{
+    height: 100vh;
+    margin: 0 auto;
+}
 
+#about-us h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#about-us .abt-banner img{
+    width: 700px;
+    border: 4px solid #A2DE96;
+    margin: 20px 0 0 0;
+}
+
+#about-us .laman{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#about-us .txt-desc{
+    margin-left: 35px;
+    width: 500px;
+    margin-top: 20px;
+    text-align: justify;
+}
 
 /* responsive css */
 @media screen and (max-width: 1280px) {
@@ -145,9 +180,25 @@ body{
         margin: 0 10px;
         max-width: 440px;
     }
+    .home{
+        height: auto;
+    }
     .jv {
-        margin: 50px 50px 0 20px;
+        margin: 30px 50px 0 20px;
         width: 1500px;
+    }
+    .btn{
+        width: 48%;
+        margin: 0 0 3px 3px;
+    }
+    #about-us .laman{
+        width: 100%;
+    }
+    #about-us h1{
+        padding-top: 30px;
+    }
+    #about-us {
+        height: auto;
     }
 }
 
@@ -158,9 +209,26 @@ body{
     }
     .home{
         margin-top: 20px;
+        height: auto;
     }
     .jv{
         margin: 0 auto;
+        width: 100%;
+    }
+    #about-us .laman{
+        margin: 0;
+        width: 100%;
+    }
+    #about-us h1{
+        padding: 0;
+    }
+    #about-us .abt-banner img {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    
+    #about-us .txt-desc {
+        margin: 20px 0 0 0;
         width: 100%;
     }
 }
