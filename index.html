@@ -10,10 +10,12 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- fonts css link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet"> 
 </head>
-<body>
-    <!-- navigation start -->
-    <div class="container-fluid">
+<body> 
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -26,19 +28,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
                         <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Service</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav> 
-    </div>
     <!-- navigation end -->
 
     <!-- home start -->
-    <div class="container-fluid home">
+    <div class="container-fluid home" id="home">
         <div class="d-lg-flex">
             <div style="max-width: 400px;" class="jv">
                 <img src="Assets/img/bannerhome.jpg" alt="" class="img-fluid" style="border: 4px solid #A2DE96;">
@@ -46,7 +47,7 @@
                     <h1>KUYA 'J <span class="d-block">HAUSILOG</span></h1>
                     <p>Welcome to our restaurant! We are a family-owned business serving up delicious, homemade meals made with the freshest
                     ingredients.</p>
-                    <button class="btn btn-primary" style="margin: 0;">Explore Menu</button><button class="btn btn-primary" style="border: none; background-color: transparent; color: #26643B; padding: 0; width: 29%;">Book Table</button>
+                    <button class="btn btn-primary" style="margin: 0;">Learn more</button><button class="btn btn-primary" style="border: none; background-color: transparent; color: #26643B; padding: 0; width: 29%;">Book Table</button>
                 </div>
             </div>
 
@@ -97,6 +98,26 @@
         </div>
     </div>
     <!-- home end -->
+
+    <!-- about us start -->
+    <div class="container-fluid" id="about-us">
+    <h1>About Us</h1>
+        <div class="d-lg-flex laman">
+            <div class="abt-banner">
+                <img src="Assets/img/about-usbanner.png" alt="">
+            </div>
+            <div class="txt-desc">
+                <p>Kuya J' Hausilog is one of the most favorite breakfast houses in Lipa City that offers Tapa, Hotdog, Egg, Longganisa, Fried Chicken, and Bangus with Fried Garlic Rice.</p>
+                <p>Kuya J' Hausilog provides the best food that most Filipinos are looking for breakfast. It is one of the fast food chains in Lipa City that is delighted to serve you Filipino comfort food. Nowadays, Kuya J' Hausilog is still a favorite Filipino breakfast due to its tasty food, hygienic environment, and Hospitable Atmosphere.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- about us end -->
+
 
 
     <!-- bootstrap js -->
