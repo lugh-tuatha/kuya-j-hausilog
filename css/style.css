@@ -91,7 +91,7 @@ body{
 }
 
 .jv{
-    margin: 80px 250px 0 150px;
+    margin: 40px 100px 0 50px;
 }
 
 .desc{
@@ -122,8 +122,8 @@ body{
     background-color: #26643B;
     font-weight: 700;
     border: none;
-    width: 45%;
-    margin: 0 0 10px 10px;
+    width: 48%;
+    margin: 2px 0 4px 4px;
 }
 
 .btn:hover{
@@ -137,7 +137,7 @@ body{
 }
 
 .menu h2, .menu p{
-    margin: 0 0 0 10px;
+    margin: 0 0 2px 10px;
 }
 
 .menu-1 span{
@@ -150,9 +150,14 @@ body{
     margin: 0 auto;
 }
 
+#devs h1,
 #about-us h1{
     font-size: 30px;
     text-align: center;
+    padding-top: 30px;
+}
+
+#about-us h1{
     padding-top: 150px;
 }
 
@@ -174,6 +179,44 @@ body{
     text-align: justify;
 }
 
+/* contact us */
+#devs{
+    height: 100vh;
+}
+
+.devs{
+    width: 350px;
+    height: auto;
+}
+
+.dev-set-1{
+    border: 4px solid #A2DE96;
+    margin-left: 50px;
+}
+
+.devs img{
+    border-bottom: 4px  solid #A2DE96;
+}
+
+.devs  h2{
+    font-size: 20px;
+    margin: 5px 0 0 5px;
+}
+
+.devs p{
+    font-size: 10px;
+    margin: 0 0 0 5px;
+}
+
+.devs i{
+    margin: 5px 0 0 5px;
+}
+
+.dev-set-2{
+    margin: 50px 0 50px 50px;
+    border: 4px solid #A2DE96;
+}
+
 /* responsive css */
 @media screen and (max-width: 1280px) {
     .menu {
@@ -190,6 +233,7 @@ body{
     .btn{
         width: 48%;
         margin: 0 0 3px 3px;
+        font-size: 11px;
     }
     #about-us .laman{
         width: 100%;
@@ -199,6 +243,9 @@ body{
     }
     #about-us {
         height: auto;
+    }
+    .dev{
+        margin-right: 50px;
     }
 }
 
@@ -230,5 +277,11 @@ body{
     #about-us .txt-desc {
         margin: 20px 0 0 0;
         width: 100%;
+    }
+    .dev-set-2{
+        margin: 50px 0 50px 0px;
+    }
+    .dev-set-1{
+        margin-left: 0;
     }
 }
