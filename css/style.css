@@ -277,6 +277,11 @@ body{
     font-weight: 200;
 }
 
+.u-links a{
+    color: white;
+    text-decoration: none;
+}
+
 
 /* responsive css */
 @media screen and (max-width: 1280px) {
