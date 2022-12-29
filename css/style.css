@@ -217,6 +217,65 @@ body{
     border: 4px solid #A2DE96;
 }
 
+/* footer  */
+#footer{
+    margin-top: 20px;
+    background-color: #7f7f7f;
+}
+
+#footer .n-letter{
+    width: 300px;
+}
+
+#footer .lmn{
+    text-align: center;
+    width: 100%;
+}
+
+#footer .n-letter img{
+    width: 150px;
+    margin: 10px 0 5px 0;
+}
+
+#footer .n-letter p{
+    text-align: center;
+    opacity: .7;
+    color: white;
+}
+
+#footer .n-letter input{
+    margin: 0 0 10px 0;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+#footer .n-letter input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+#footer .n-letter .btn{
+    border-radius: 0;
+    margin: 0;
+}
+
+.u-links{
+    width: 300px;
+    color: white;
+}
+
+.u-links p{
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 4px solid  white;
+    margin-top: 10px;
+}
+
+.u-links ul li{
+    list-style-type: none;
+    margin-left: -35px;
+    font-weight: 200;
+}
 /* responsive css */
 @media screen and (max-width: 1280px) {
     .menu {
@@ -266,6 +325,9 @@ body{
         margin: 0;
         width: 100%;
     }
+    #about-us{
+        height: auto;
+    }
     #about-us h1{
         padding: 0;
     }
@@ -273,15 +335,21 @@ body{
         width: 100%;
         margin: 20px 0 0 0;
     }
-    
     #about-us .txt-desc {
         margin: 20px 0 0 0;
         width: 100%;
+    }
+    #devs{
+        height: auto;
     }
     .dev-set-2{
         margin: 50px 0 50px 0px;
     }
     .dev-set-1{
         margin-left: 0;
+    }
+    .u-links{
+        width: 100%;
+        margin-top: 20px;
     }
 }
